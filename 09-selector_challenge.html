@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="utf-8">
+	<title>Selector: Challenge</title>
+	
+	<style>
+	/* combine similar selectors */
+	a, a:link {
+		color: orange;
+		text-decoration: none; /* 1.) we remove the underline */
+	}
+	
+	/* :visited pseudo-class selector */
+	a:visited {color: red;} /* no change needed here */
+	
+	/* :hover pseudo-class selector */
+	a:hover {
+		text-decoration: underline; /* 2.) bring back the underline */
+	}
+	
+	
+	
+	</style>
+</head>
+<body>
+	<h1>Selectors: Pseudo-Class Challenge!</h1>
+	<p>This paragraph contains a link that will take you to <a href="http://google.com"><strong>Google's</strong> search page</a>.</p>
+	<p>This paragraph contains a link that will take you to <a href="http://bing.com"><strong>Bing's</strong> search page</a>.</p>
+	
+	<h2>General Search Engines</h2>
+	<ul>
+		<li><a href="http://google.com">Google</a></li>
+		<li><a href="http://bing.com">Bing</a></li>
+		<li><a href="http://yahoo.com">Yahoo</a></li>
+	</ul>
+</body>
+</html>
