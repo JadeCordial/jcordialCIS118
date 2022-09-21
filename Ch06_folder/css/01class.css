@@ -1,7 +1,9 @@
 /* for our CSS, we'll use the . for the "class" selector */
-.mfg {color: green;}
+.mfg {padding: 10 px; border: 1px solid black; width: 260px}
+
 
 /*write the class selector for "mfg" here */
-
+.faq { margin-left: 20 px; padding-left: 5px; border-left: 2px solid red; {
+.important { font-weight: bold; color: red; }
 
 /* write other class selector examples for our paragraphs */
