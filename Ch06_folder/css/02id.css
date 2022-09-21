@@ -1,0 +1,18 @@
+/*our previousl CSS rules for the class selector */
+.mfg {
+padding: 10px;
+border: 1px solid black;
+width:  260px;
+}
+.aside {
+margin-left: 20px; 
+padding-left: 5px;
+border-left: 2px solid red;
+}
+.important {
+font-weight: bold;
+color:  red;
+}
+/* NEW CSS GOES BELOW */
+/* for our CSS, we'll use the # for the "id" selector */
+
