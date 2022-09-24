@@ -3,7 +3,7 @@ h1, h2, h3, h4, h5, h6 {font-family: Georgia, serif;}
 p, li {line-height: 1.25em;}
 p>em {font-weight: bold;}
 #nav {background-color: #dddddd;}
-a, a:link {color: dark green;}
+a, a:link {color: #006400;}
 a:visited {color: #649a00;}
 a:hover {color: #00638b;}
 a:active {color: #008b14;}
