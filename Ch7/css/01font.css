@@ -19,19 +19,17 @@
   */
   
 	/* #sansFont */
-
-	
+#sansFont { font-family: "Trebuchet MS", Verdana, sans-serif; }	
 	/* #serifFont */
 
-	
+#serifFont { font-family: Georgia, serif; }
 	/* #monoFont */
-
+#monoFont { font-family: "Courier New", monospace; }
 	
 	/* #cursiveFont */
-
-	
+#cursiveFont { font-family: cursive; }	
 	/* #fantasyFont */
-    
+   #fantasyFont { font-family: fantasy; } 
 
 
   /* font-size 
