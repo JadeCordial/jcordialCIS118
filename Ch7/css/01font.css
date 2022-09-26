@@ -51,19 +51,21 @@ h1 { font-size: 4.5em; }
   normal - default style
   oblique - will slant a font if there's not "italic" style by default
   */
-
+h2 { font-style: italic; }
   
   /* font-variant
   This can allow us to style small-caps
   */
-
+h2 { font-variant: small-caps; }
 
   
   /* font-weight
   we can set a value: 400 = normal and 700 = bold typeface
   or we can give a name: bold
   */
-
+dt { font-weight: bold; }
+h2 {font-weight: lighter; }
+h2 + p  { font: italic 1.25em/1.4 Georgie, serif; }
 
   /* font
   this is our shorthand property where we can set all previous
