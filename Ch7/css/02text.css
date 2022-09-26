@@ -1,0 +1,27 @@
+.container {width: 800px; margin: 0 auto;}
+p,dd { line-height: 1.35em;}
+	li { line-height: 1.5em;}
+
+/* ADD EXAMPLES BELOW */
+/*text-align values: right, center, left or justify */
+
+
+
+/*text-decoration values: line-through, none, overline, underline */
+/* add a line through the text */
+
+
+/* remove a line from under an anchor element */
+
+
+/* add a line over the text */
+
+
+/* add a line under the text */
+
+
+
+/* indent the first line of text */
+
+
+/* capitalize, lowercase, uppercase */

@@ -1,0 +1,73 @@
+ body {
+  	font-size: 16px;
+  }
+  .container {
+  	width: 800px; margin: 0 auto;
+  }
+  /* The color property */
+  
+  /* font-family property
+  Generic family names
+	sans-serif (Arial, Helvetica, Impact, "Trebuchet MS", Verdana)
+	serif (Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman")
+  
+	monospace (Monoco, Courier, "Courier New", "Andale Mono")
+  
+	cursive ("Brush Script MT")
+	fantasy (a special, decorative font. Who know's what will show up.)
+
+  */
+  
+	/* #sansFont */
+
+	
+	/* #serifFont */
+
+	
+	/* #monoFont */
+
+	
+	/* #cursiveFont */
+
+	
+	/* #fantasyFont */
+    
+
+
+  /* font-size 
+  	most common values are: px, %, and em
+  	keywords: xx-small, x-small, small, medium, large, x-large, and xx-large
+  	relative keywords: smaller and larger
+  	font-size 48px
+  	font-size: 300% (48px/16px = 3 or 300%)
+  	font-size: 3em (48px/16px = 3em)
+  	target size / baseline (context) size = value
+  */
+
+
+
+  /* font-style 
+  italic - best if italicizing a font
+  normal - default style
+  oblique - will slant a font if there's not "italic" style by default
+  */
+
+  
+  /* font-variant
+  This can allow us to style small-caps
+  */
+
+
+  
+  /* font-weight
+  we can set a value: 400 = normal and 700 = bold typeface
+  or we can give a name: bold
+  */
+
+
+  /* font
+  this is our shorthand property where we can set all previous
+  properties' values with spaces 
+  [ font-style ]   [ font-variant ]   [ font-weight ]  font-size [ /line-height ]  font-family
+  */
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Font and Text properties in CSS">
+  <meta name="author" content="Thomas Michaud">
+  <title>Text Properties</title>
+	<link rel="stylesheet" href="css/02text.css">
+  </head>
+  
+  <body>
+  <div class="container">
+  <h1>Text Properties</h1>
+  <!-- gives a very contemporary look to fonts -->
+  <dl id="textAlign">
+  <dt><code>text-align</code> Property</dt>
+  <dd>The <code>text-align</code> property allows you to set the alignment to: <code>left</code>, <code>center</code>, <code>right</code> or <code>justify</code>. Be careful when choosing justify, as it may not always give the the prettiest result. While you can do a lot with type in <abbr title="Cascading Style Sheets">CSS</abbr>, it's still not like using a layout application for print.</dd>
+  </dl>
+  <!-- very traditional style -->
+  <dl id="textDecoration">
+  <dt><code>text-decoration</code> Property</dt>
+  <dd>With the <code>text-decoration</code> property, you can:
+  	<ul>
+  	<li>Add a <code>line-through</code> text (like you're saying <span class="throughText">"this text is no longer needed"</span>)</li>
+  	<li class="underTextNone">Remove the <code>underline</code> <a href="#">from a link</a></li>
+  	<li class="overText">Add an <code>overline</code> to a text block</li>
+  	<li class="underText">Add an <code>underline</code> to a text block</li>
+  	</ul>
+  </dd>
+  </dl>
+  
+  <!-- these fonts are often used when demonstrating computer code -->
+  <dl id="textIndent">
+  <dt><code>text-indent</code> Property</dt>
+  <dd>The <code>text-indent</code> property allows you to, well, indent text. However, unline <code>margin</code>, the <code>text-indent</code> property <em>only</em> moves the first line of text in an element and <em>not</em> the whole block.</dd>
+  <dd> The indent value can be positive, to move the text to the right, or negative, to move the text to the left. Many web designers use a negative text value (text-indent: -9999px;) to hide text when using images to replace text. However, <a href="http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/">according to Jeffery Zeldman, there is a method</a> that could be better.</dd>
+  </dl>
+  <!-- these fonts are not used as often -->
+  <dl id="textTransform">
+  <dt><code>text-transform</code> Property</dt>
+  <dd><p>The <code>text-transform</code> property allows us:</p>
+  <ul>
+	<li class="textCapital">to <code>capitalize</code> all fist letters in a text block</li>
+	<li class="textUpper">To set our text in all <code>uppercase</code>.</li>
+	<li class="textLower">TO MAKE ALL text IN a BLOCK all <code>lowercase</code></li>
+  </ul>
+  </dd>
+  </dl>
+
+  </div> <!-- end .container -->
+  </body>
+  </html>

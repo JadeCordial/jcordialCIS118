@@ -1,0 +1,30 @@
+ body{
+ 	font-family: Georgia;
+ }
+ .container {width: 800px; margin: 0 auto;
+ }
+
+ 
+ /* ADD EXAMPLES BELOW */
+ 
+ /*line-height*/
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+/* CHALLENGE...
+Step 1
++ Change the font-size to 18px
+++ Refresh the browser to see the line-height change automatically!
+
+Step 2
++ remove the blockquote selector and have only the p selector
+++ View your HTML document and see that both paragraphs now look the same (size and spacing) 
+
+(view 03spacing.css in the "solutions" folder, to check your work)
+*/

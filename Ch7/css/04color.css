@@ -1,0 +1,31 @@
+body{
+  	font-family: Georgia;
+  	font-size: 16px;
+  }
+  .container {width: 800px; margin: 0 auto;
+  }
+ 
+ p, li{
+ 	line-height: 1.5em;
+ }
+  
+/* ADD EXAMPLES BELOW */
+/*Add color name*/
+
+
+/*Add color hex value */
+
+
+/*Add color rgb value*/
+
+
+/*Add color rgba value*/
+
+
+/*Add color hsl value*/
+
+
+/*Add color hsla value*/
+
+
+/*Add text a text value*/
