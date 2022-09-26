@@ -65,7 +65,7 @@ h2 { font-variant: small-caps; }
   */
 dt { font-weight: bold; }
 h2 {font-weight: lighter; }
-h2 + p  { font: italic 1.25em/1.4 Georgie, serif; }
+h2 + p  { font: italic 1.25em/1.4 Georgia, serif; }
 
   /* font
   this is our shorthand property where we can set all previous
