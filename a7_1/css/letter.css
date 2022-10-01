@@ -6,12 +6,12 @@ div {
   margin: 20px;
 }
 body {font-size: 20px;font-family: "Lucida Handwriting", cursive; background-color: saddlebrown;}
-p #date{text-align:right; font-size:22px; line-height:1.25;}
-p #greeting{font-size:26px;line-height:1.5;}
-p .bodyText {text-indent: 50px; line-height:1;}
-p #farewell {text-align:right; font-size: 26px; line-height:1;}
-p #signature {text-align:right; font-size:40px; line-height: 1;}
+#date{text-align:right; font-size:22px; line-height:1.25;}
+#greeting{font-size:26px;line-height:1.5;}
+.bodyText {text-indent: 50px; line-height:1;}
+#farewell {text-align:right; font-size: 26px; line-height:1;}
+#signature {text-align:right; font-size:40px; line-height: 1;}
 footer {color: yellow; font-family: Arial, sansserif; font-size: 12px; line-height:1.25;}
 a, a:link, a:visited, a:hover, a:active, a:focus {color:yellow;}
-span .misspelledText {text-decoration: line-through wavy;}
-span.emphaticText {text-transform: uppercase; font-weight: bolder;}
+.misspelledText {text-decoration: line-through wavy;}
+.emphaticText {text-transform: uppercase; font-weight: bolder;}
