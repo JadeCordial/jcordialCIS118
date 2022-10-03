@@ -1,0 +1,4 @@
+h1, p, blockquote, ul {
+	border: 1px solid red;
+	background: beige;
+}

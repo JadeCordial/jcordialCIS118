@@ -1,0 +1,7 @@
+/* universally reset all html elements to have no margin or padding 
+
+The reset should always come before any other CSS you add
+*/
+* {	margin: 0;	padding: 0;}
+
+

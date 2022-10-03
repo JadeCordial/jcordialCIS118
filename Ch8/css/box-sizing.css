@@ -1,0 +1,18 @@
+/* basic reset css */
+* {margin:0; padding: 0;}
+
+/* background grid image */
+body{background: url(../images/layout_grid.gif);}
+
+
+/* parent container*/
+.container {
+
+}
+/* child container */
+
+.box{
+	background-color: gold;
+	width: 400px;
+	
+}

@@ -1,0 +1,13 @@
+/* basic reset css */
+* {margin:0; padding: 0;}
+
+
+/* parent container*/
+.container {
+	width:500px;
+	margin: 50px 0;
+}
+/* child container */
+.box{
+	
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="utf-8">
+  <title>Reset with Normalize CSS</title>
+  <!-- remember: we have our css in an external document! -->
+  <link href="css/normalize.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+<h1>Reseting with Normalize</h1>
+<p>The first default value the browser sets is actually for the body element's margin. The value most browsers set for the <code>body</code>'s <code>margin</code> is 8 pixels on all sides, so all content is pused away from the top, right, bottom, and left edges of the viewport (browser window).</p>
+	<p>This is the first paragraph. The default browser's <abbr title="Cascading Style Sheets">CSS</abbr> you should see space between this paragraph and the next paragraph.</p>
+	<p>This is the second paragraph. The space between the first paragraph and this paragraph is based upon the browser's default <code>margin-top</code> and <code>margin-bottom</code> values (about 1em) for paragraphs.</p>
+	<p>The following blockquote also shows that the browser's default CSS sets same values for the <code>margin</code> on the top and bottom, like the paragraphs, but also on the left and right sides (about 40 pixels).</p>
+	<blockquote>
+		Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.
+	</blockquote>
+	<p>The Unordered List example shows the browser's default CSS sets <code>margin</code> on the top and bottom (like the paragaph), but the indentation is established by giving a value to the <code>padding-left</code> (about 40 pixels). The sub-list item (within a child unordered list element) also has 40 pixels of padding on the left that pushed it a total of 80 pixels away from the left edge of the paren element (the <code>body</code> element)</p>	<ul>
+	<li>list item</li>
+	<li>list item
+		<ul>
+		<li>sub-list item</li>
+		</ul>
+	</li>
+	<li>list item</li>
+	</ul>
+	
+</div> <!-- end #container -->
+</body>
+</html>

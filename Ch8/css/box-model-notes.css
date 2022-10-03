@@ -1,0 +1,80 @@
+.box{
+	background: #ccc;
+
+/*	border-style \ dotted | dashed | double | solid */
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-style: solid;
+
+	
+/*	border-color \ name | hex | rgb | rgba | HSL | HSLA */
+	border-top-color: black;
+	border-right-color: black;
+	border-bottom-color: black;
+	border-left-color: black;
+	border-color: black;
+		
+/*	border-width \ thin | medium | think | px*/
+	border-top-width: 5px;
+	border-right-width: 5px;
+	border-bottom-width: 5px;
+	border-left-width: 5px;
+	border-width: 5px;
+	
+/*	border shorthand \ border-width | border-style | border-color */
+	border: 5px solid gray;
+
+/* padding \ % | px */
+padding-top: 10%;
+padding-right: 10%;
+padding-bottom: 10%;
+padding-left: 10%;
+	padding: 10%;
+	
+	/* margin \ % | px | auto
+	note: can use negative values
+	develop .container border first
+	*/
+	
+	margin-top:;
+	margin-right:;
+	margin-bottom:;
+	margin-left:;
+	margin: 10%;
+
+	
+}
+
+
+
+.container{
+	background: cornsilk;
+	border: 4px dashed lightblue;
+}
+
+/*
+*{
+	box-sizing: border-box;
+}*/
+
+
+
+/* inherit auto hidden scroll visible*/ 
+	overflow:   visible;
+	
+	
+	background-color: lightblue;
+	
+	body{background: url(../images/layout_grid.gif);}
+
+
+	width: 250px;
+	background-color: tomato;
+	
+		border: 25px solid black; /*250+25+25 = 300 */
+	padding: 50px; /*250+25+25+50+50 = 400*/
+	
+	 box-sizing:border-box
+	 
