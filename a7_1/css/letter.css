@@ -14,5 +14,5 @@ body {font-size: 20px;font-family: "Lucida Handwriting", cursive; background-col
 footer {color: yellow; font-family: Arial, sansserif; font-size: 12px; line-height:1.25;}
 a, a:link, a:visited, a:hover, a:active, a:focus {color:yellow;}
 .misspelledText {text-decoration: line-through wavy;}
-<!-- No underlineText rule.-->
+.underlineText {text-decoration:underline;}
 .emphaticText {text-transform: uppercase; font-weight: bolder;}
