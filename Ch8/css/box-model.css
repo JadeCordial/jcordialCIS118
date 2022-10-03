@@ -5,6 +5,8 @@
 }
 /* write example css below */
 .box{
+border-color: blue red green gray;
 border-style:dashed;
+border-width: 5px 10px 5px 10px;
 }
 
