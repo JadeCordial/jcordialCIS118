@@ -6,9 +6,7 @@
 /* write example css below */
 .box {
 color: red;
-border-style: solid;
-border-color: gray;
-border-width: 10px;
+border: 10px solid gray;
 }
 
 
