@@ -4,9 +4,11 @@
 	margin: 10% auto;
 }
 /* write example css below */
-.box{
-border-color: blue red green gray;
-border-style:dashed;
-border-width: 5px 10px 5px 10px;
+.box {
+color: red;
+border-style: solid;
+border-color: gray;
+border-width: 10px;
 }
+
 
