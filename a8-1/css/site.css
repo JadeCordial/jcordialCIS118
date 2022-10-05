@@ -2,8 +2,9 @@
 body {background-color: #cccccc; font-family: Helvetica, Arial, sans-serif; font-size: 1em; background-image: url(../images/bg_body.png); background-repeat: repeat-x; background-position:left-top;}
 h1, h2, h3, h4, h5, h6 {font-family: Georgia, serif;}
 p, li {line-height: 1.25em;}
+p{margin-bottom: .625em;}
 p>em {font-weight: bold;}
-#nav {background-color: #dddddd;}
+#nav {background-color: #dddddd; padding: 5px 10px; margin-bottom: 10px;}
 a, a:link {color: #008b14;}
 a:visited {color: #649a00;}
 a:hover {color: #00638b;}
@@ -11,3 +12,4 @@ a:active {color: #008b14;}
 a:focus {color: #00638b;}
 table, tr, th, td{border:1px solid black;}
 th, td{ padding: 4px;}
+#container {width: 60em; margin: 0 auto; 
