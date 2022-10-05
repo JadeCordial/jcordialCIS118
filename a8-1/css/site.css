@@ -13,3 +13,5 @@ a:focus {color: #00638b;}
 table, tr, th, td{border:1px solid black;}
 th, td{ padding: 4px;}
 #container {width: 60em; margin: 0 auto;}
+#header {margin-top: 20px; margin-bottom: 20px;}
+#header img {border: 1px solid #000000; background-color: #FFFFFF; padding: 5px;}
