@@ -1,4 +1,5 @@
-body {background-color: #cccccc; font-family: Helvetica, Arial, sans-serif;}
+* {padding: 0; margin: 0; box-sizing: border-box;}
+body {background-color: #cccccc; font-family: Helvetica, Arial, sans-serif; font-size: 1em; background-image: url(../images/bg_body.png); background-repeat: repeat-x; background-position:left-top;}
 h1, h2, h3, h4, h5, h6 {font-family: Georgia, serif;}
 p, li {line-height: 1.25em;}
 p>em {font-weight: bold;}
