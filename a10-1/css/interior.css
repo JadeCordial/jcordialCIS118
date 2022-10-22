@@ -2,4 +2,8 @@
 #main{width:630px;margin-right:10px;margin-left:10px;float:left;}
 #secondary{width:300px;margin-right:10px;margin-left:10px;float:left;}
 dd{line-height:1.5em;margin-bottom:1.5em;}
-
+#fluid div#container{width:90px;max-width:960px;min-width:650px;}
+#fluid div#main {width:65%;margin-right:1%;margin-left:1%;float:left;}
+#fluid div#secondary{width:31%; margin-right:1%;margin-left:1%; float:left;}
+#fluid img{width:100%;}
+@media and screen
