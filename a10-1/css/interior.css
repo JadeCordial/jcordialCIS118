@@ -1,8 +1,8 @@
 .content {padding-bottom:20px;background-color:#EEE;overflow:auto;}
-#main{width:630px;margin-right:10px;margin-left:10px;float:left;}
+#main{width:620px;margin-right:10px;margin-left:10px;float:left;}
 #secondary{width:300px;margin-right:10px;margin-left:10px;float:left;}
 dd{line-height:1.5em;margin-bottom:1.5em;}
-#fluid #container{width:90px;max-width:960px;min-width:650px;}
+#fluid #container{width:90%;max-width:960px;min-width:650px;}
 #fluid #main {width:65%;margin-right:1%;margin-left:1%;float:left;}
 #fluid #secondary{width:31%; margin-right:1%;margin-left:1%; float:left;}
 #fluid img{width:100%;}
