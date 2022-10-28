@@ -7,7 +7,7 @@ dd{line-height:1.5em;margin-bottom:1.5em;}
 ul#nav{background-color:transparent;float:right;width:350px; margin-top:20px;}
 ul#nav li{display:inline;padding:5px 10px;background-color:#ddd;border-radius:4px;border:1px solid #aaa;text-decoration:none;box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;}
 ul#nav a:hover{background-color:#eee;}
-ul#nav .current a{background-color:#fff;}
+ul#nav .current li{background-color:#fff;}
 .content{clear:both;}
 #fluid div#container{width:90%;max-width:960px;min-width:650px;}
 #fluid div#main {width:65%;margin-right:1%;margin-left:1%;float:left;}
