@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="Author" content="Jade Cordial"/>
+	<title>Contact : Jade Cordial</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" href="css/master.css">
+<link rel="stylesheet" href="css/html5form.css">
+</head>
+<body>
+<div class="container">
+<h1>Contact</h1>
+<p>Filling out this form will send the form data to Jade Cordial.</p>
+<form method="post" action="contact_process.php">
+	<fieldset>
+	<legend>Contact Me</legend>
+
+
+<label for="form-name">Full Name </label>
+<input type="text" name="name" id="form-name" required placeholder="required"/><br>
+
+
+<label for="form-email">Email </label>
+<input type="email" name="email" id="form-email" required/><br>
+	
+<label for="form-subject">Subject </label>
+<input type="text" name="subject" id="form-subject" required/><br>
+
+ <label for="form-message">Message </label>
+<textarea name="message" id="form-message" required/></textarea><br>
+
+		<span>
+		  <input type="submit" name="Submit" value="Submit" />
+		  
+		  <!-- The contact_process will check if these fields were
+		  completed in older browsers. 
+		  However, you can use the HTML5 required attribute
+		  for modern browsers -->
+		  <input type="hidden" name="required" value="name email" />
+		 
+		 
+		  <!-- this input sends the message from response.text as an email
+		  The document can be found in the autoresponse folder
+		  - Don't touch {~name~} ... it uses the name from the form
+		  - modify the message, if you wish
+		  - Change YOUR NAME HERE to your name -->
+		  <input type="hidden" name="autoresponse_file" value="response.txt" />
+		  
+		  
+		  <!--This input sends the user to the thankyou.html document
+		  don't change the value unless you change thankyou.html to
+		  a different name -->
+		  <input type="hidden" name="followup_url" value="thankyou.html" />
+		</span>
+
+	</fieldset>
+
+</form>
+</div>
+</body>
+</html>

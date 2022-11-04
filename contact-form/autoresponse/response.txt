@@ -1,0 +1,5 @@
+Hello {~name~},
+Thank you for contacting us.  Your email will be responded to as soon as possible.
+
+Have a great day,
+YOUR NAME HERE
