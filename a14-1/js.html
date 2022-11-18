@@ -39,7 +39,17 @@
 	<img src="images/img8.png" alt="Orange background swirl" onclick="openFullImg(this.src)">
 	<img src="images/img9.jpg" alt="Yellow bubblegum machines" onclick="openFullImg(this.src)">
 </div>
+<script>var FullImgBox = document.getElementById("FullImgBox");
+var FullImg = document.getElementById("FullImg");
 
+function openFullImg(pic){
+FullImgBox.style.display = "flex";
+FullImg.src = pic;
+}
+function closeFullImg(){
+FullImgBox.style.display = "none";
+}
+	</script>
 	<footer role="contentinfo">
 	&copy; 2022 | Jade Cordial |<a href="contact.html"> Contact Me</a>
 </footer>
