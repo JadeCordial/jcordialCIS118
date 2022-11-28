@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Jade Cordial">
+		<title>FOWD: JavaScript</title>
+		<link rel="stylesheet" href="css/site.css">
+		<link rel="stylesheet" href="css/interior.css">
+		<link rel="stylesheet" href="css/gallery.css">
+		<script src="js/gallery.js"></script>
+	</head>
+<body id="fluid">
+<div id="container">
+<div id="header" role="banner">
+<h1>Foundations of Web Design</h1>
+	<h2>Javascript</h2>
+	<h3>Creating a Photo Gallery</h3>
+
+</div>
+		<ul id="nav" role="navigation">
+			<li><a href="index.html">Home</a></li>
+      			<li><a href="html.html">HTML</a></li>
+			<li><a href="css.html">CSS</a></li>
+      <li class="current"><a href="js.html">JavaScript</a></li>
+			</ul>
+<div class="full-img" id="FullImgBox">
+	<img src="images/img1.jpg" id="FullImg">
+	<span onclick="closeFullImg()">X</span>
+</div>
+<div class="img-gallery">
+	<img src="images/img1.jpg" alt="A lake" onclick="openFullImg(this.src)">
+	<img src="images/img2.jpg" alt="A field" onclick="openFullImg(this.src)">
+	<img src="images/img3.jpg" alt="A man" onclick="openFullImg(this.src)">
+	<img src="images/img4.jpg" alt="A tree" onclick="openFullImg(this.src)">
+	<img src="images/img5.jpg" alt="A girl" onclick="openFullImg(this.src)">
+	<img src="images/img6.jpg" alt="People jumping in front of a Cleveland sign." onclick="openFullImg(this.src)">
+	<img src="images/img7.jpg" alt="A smiley face" onclick="openFullImg(this.src)">
+	<img src="images/img8.png" alt="Orange background swirl" onclick="openFullImg(this.src)">
+	<img src="images/img9.jpg" alt="Yellow bubblegum machines" onclick="openFullImg(this.src)">
+</div>
+	</div></body>
+<script>var FullImgBox = document.getElementById("FullImgBox");
+var FullImg = document.getElementById("FullImg");
+
+function openFullImg(pic){
+FullImgBox.style.display = "flex";
+FullImg.src = pic;
+}
+function closeFullImg(){
+FullImgBox.style.display = "none";
+}
+	</script>
+	<footer role="contentinfo">
+	&copy; 2022 | Jade Cordial |<a href="contact.html"> Contact Me</a>
+</footer>
+</html>
