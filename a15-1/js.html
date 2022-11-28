@@ -24,7 +24,7 @@
       <li class="current"><a href="js.html">JavaScript</a></li>
 			</ul>
 <div class="full-img" id="FullImgBox">
-	<img src="images/img1.jpg" id="FullImg">
+	<img src="images/img1.jpg" alt="img" id="FullImg">
 	<span onclick="closeFullImg()">X</span>
 </div>
 <div class="img-gallery">
@@ -39,7 +39,8 @@
 	<img src="images/img9.jpg" alt="Yellow bubblegum machines" onclick="openFullImg(this.src)">
 </div>
 	</div></body>
-<script>var FullImgBox = document.getElementById("FullImgBox");
+<script>
+var FullImgBox = document.getElementById("FullImgBox");
 var FullImg = document.getElementById("FullImg");
 
 function openFullImg(pic){
@@ -49,8 +50,8 @@ FullImg.src = pic;
 function closeFullImg(){
 FullImgBox.style.display = "none";
 }
-	</script>
-	<footer role="contentinfo">
+</script>
+<footer role="contentinfo">
 	&copy; 2022 | Jade Cordial |<a href="contact.html"> Contact Me</a>
 </footer>
 </html>
