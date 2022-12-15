@@ -19,7 +19,10 @@ img{
 padding: 10px;
 float: left; }
 
-			
+table {border-collapse: collapse;width: 100%;}
+th, td {text-align: left;padding: 8px;}
+tr:nth-child(even) {background-color: #D6EEEE;}
+td.day{text-align:center;border:1px solid black;background-color:white;}		
 		</style>
 	</head>
 <body>
@@ -40,7 +43,85 @@ Trees can be contorted, bent in weird ways,
  and they're still beautiful.
 </p></div>
 		
-	</div>
+<h2>Zebra Striped Table</h2>
+<p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:</p>
+
+<table>
+  <tr>
+  <th>Day</th>
+  <th>Description</th>
+  <th>Cost (if any)</th>
+  </tr>
+  <tr>
+  <td class="day" rowspan="3">Day One</td>
+  <td>Natural Rock State Park</td>
+  <td>$13</td>
+  </tr>
+  <tr>
+  <td>Buddys BBQ</td>
+  <td>$30</td>
+  </tr>
+  <tr>
+  <td>Crave Mini Golf</td>
+  <td>$36</td>
+  </tr>
+
+  <td class="day" rowspan="2">Day Two</td>
+  <td>Dollywood<br><ul><li>Thunderhead</li><li>Dragonflier</li><li>Blazing Fury</li><li>Wild Eagle</li></ul></td>
+  <td>$200</td>
+  </tr>
+  <tr>
+
+  <td>Cinnamon Bread</td>
+  <td>$10</td>
+  </tr>
+  <tr>
+  <td class="day" rowspan="3">Day Three</td>
+  <td>Sawyers Farmhouse Breakfast</td>
+  <td>$25</td>
+  </tr>
+  <tr>
+  <td>Great Smoky Mountain NP<br><ul><li>Chimney Tops Hike</li></ul></td>
+  <td>$30</td>
+  </tr>
+  <tr>
+  <td>Graze Burgers</td>
+  <td>$36</td>
+  </tr>
+  <tr>
+  <td class="day" rowspan="3">Day Four</td>
+  <td>Great Smoky Mountain NP<br><ul><li>Laurel Falls hike</li><li>Cades Cove</li></ul></td>
+  <td>$0</td>
+  </tr>
+  <tr>
+  <td>Anakeesta</td>
+  <td>$45</td>
+  </tr>
+  <tr>
+  <td>Loco Burro</td>
+  <td>$40</td>
+  </tr>
+  <tr>
+  <td class="day" rowspan="3">Day Five</td>
+  <td>Sawyers Farmhouse Breakfast</td>
+  <td>$31</td>
+  </tr>
+  <tr>
+  <td>Gas</td>
+  <td>$65</td>
+  </tr>
+  <tr>
+  <td>Tanger Outlets</td>
+  <td>$32</td>
+  </tr>
+  <tr>
+  <td class="day" rowspan="1">Other</td>
+  <td>Airbnb</td>
+  <td>$200</td>
+  </tr>
+
+</table>
+
 </body>		
 <footer>
 	<p><a href"#">Contact Me</a> | <a href"#">Instagram</a> | <a href"#">Pinterest</a> | <a href"#">YouTube</a></p>
