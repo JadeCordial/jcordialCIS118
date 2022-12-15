@@ -20,11 +20,13 @@
 			nav span#home{position:absolute;top:2%;left:1%;font-size:1em;color:black;cursor:pointer;}
 			nav span#forward{position:absolute;top:16%;right:1%;font-size:1em;color:black;cursor:pointer;}
 			nav span a{text-decoration:none;}
-			table {border-collapse: collapse;width: 50%;}
-			th, td {text-align: left;padding: 8px;}
-			tr:nth-child(even) {background-color: #D6EEEE;}
-			td.day{text-align:center;border:1px solid black;background-color:white;}
-			
+			table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
 		</style>
 	</head>
 <body>
@@ -67,82 +69,87 @@ Day four was tasked with climbing manitou incline. My main reason for the trip. 
 Our final day. We ran around Denver this day until our flight. We went to the Botanical Gardens and once again it was SO HOT. I really couldn’t handle it. We speed walked through the gardens. Then, we went to an indoor photo thing. That was really cool. We should have brought the tripod in, but we didn’t so it is only pictures of me. We had to charge the car before we returned it and we were cutting it close. We walked around Walmart for an hour and then BOOKED it to the airport. We had just enough time to spare, luckily. There was almost a fist fight on the plane. We landed at midnight and had a 2.5 hour drive home. We had to play games and talk because we were both falling asleep. We got home at 4 am. It was the best trip of my life.</div><img width="350" height="263" src="images/coday5.jpg">
 </div>
 	<h2>Total Spending</h2>
-<p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:</p>
+<p>To make a cell span more than one column, use the colspan attribute.</p>
 
-<table>
+<table style="width:98%">
   <tr>
-  <th>Day</th>
-  <th>Description</th>
-  <th>Cost (if any)</th>
-  </tr>
-  <tr>
-  <td class="day" rowspan="3">Day One</td>
-  <td>Natural Rock State Park</td>
-  <td>$13</td>
+    <th colspan="2">Random</th>
+    <th colspan="2">Day One</th>
+    <th colspan="2">Day Two</th>
+    <th colspan="2">Day Three</th>
+    <th colspan="2">Day Four</th>
+    <th colspan="2">Day Five</th>
   </tr>
   <tr>
-  <td>Buddys BBQ</td>
-  <td>$30</td>
+    <td>Hamburger</td>
+    <td>$4</td>
+    <td>Game</td>
+    <td>$4</td>
+    <td>Game</td>
+    <td>$4</td>
+    <td>Elephants the la </td>
+    <td>$4</td>
+    <td>Game</td>
+    <td>$4</td>
+    <td>Game</td>
+    <td>$4</td>
   </tr>
   <tr>
-  <td>Crave Mini Golf</td>
-  <td>$36</td>
+    <td>Hamburger</td>
+    <td>$4</td>
+    <td>Airplane Tickets</td>
+    <td>$4444444</td>
+    <td>Game</td>
+    <td>$4</td>
+    <td>Game</td>
+    <td>$400</td>
+    <td>Gamfdfdfdfdfdfe</td>
+    <td>$4</td>
+    <td>Game</td>
+    <td>$4</td>
   </tr>
-
-  <td class="day" rowspan="2">Day Two</td>
-  <td>Dollywood<br><ul><li>Thunderhead</li><li>Dragonflier</li><li>Blazing Fury</li><li>Wild Eagle</li></ul></td>
-  <td>$200</td>
+    <tr>
+    <td>Hamburger</td>
+    <td>$4</td>
+    <td>Airplane Tickets</td>
+    <td>$4</td>
+    <td>Game</td>
+    <td>$4</td>
+    <td>Game</td>
+    <td>$400</td>
+    <td>Game</td>
+    <td>$4</td>
+    <td>Game</td>
+    <td>$4</td>
   </tr>
-  <tr>
-
-  <td>Cinnamon Bread</td>
-  <td>$10</td>
+    <tr>
+    <td>Hamburger</td>
+    <td>$4</td>
+    <td>Airplane Tickets</td>
+    <td>$4</td>
+    <td>Game</td>
+    <td>$4</td>
+    <td>Game</td>
+    <td>$400</td>
+    <td>Game</td>
+    <td>$4</td>
+    <td>Game</td>
+    <td>$4</td>
   </tr>
-  <tr>
-  <td class="day" rowspan="3">Day Three</td>
-  <td>Sawyers Farmhouse Breakfast</td>
-  <td>$25</td>
+    <tr>
+    <td>Hamburger</td>
+    <td>$4</td>
+    <td>Airplane Tickets</td>
+    <td>$4</td>
+    <td>Game</td>
+    <td>$4</td>
+    <td>Game</td>
+    <td>$400</td>
+    <td>Game</td>
+    <td>$4</td>
+    <td>Game</td>
+    <td>$4</td>
   </tr>
-  <tr>
-  <td>Great Smoky Mountain NP<br><ul><li>Chimney Tops Hike</li></ul></td>
-  <td>$30</td>
-  </tr>
-  <tr>
-  <td>Graze Burgers</td>
-  <td>$36</td>
-  </tr>
-  <tr>
-  <td class="day" rowspan="3">Day Four</td>
-  <td>Great Smoky Mountain NP<br><ul><li>Laurel Falls hike</li><li>Cades Cove</li></ul></td>
-  <td>$0</td>
-  </tr>
-  <tr>
-  <td>Anakeesta</td>
-  <td>$45</td>
-  </tr>
-  <tr>
-  <td>Loco Burro</td>
-  <td>$40</td>
-  </tr>
-  <tr>
-  <td class="day" rowspan="3">Day Five</td>
-  <td>Sawyers Farmhouse Breakfast</td>
-  <td>$31</td>
-  </tr>
-  <tr>
-  <td>Gas</td>
-  <td>$65</td>
-  </tr>
-  <tr>
-  <td>Tanger Outlets</td>
-  <td>$32</td>
-  </tr>
-  <tr>
-  <td class="day" rowspan="1">Other</td>
-  <td>Airbnb</td>
-  <td>$200</td>
-  </tr>
-
 </table>
 	</body>	
 <footer>
