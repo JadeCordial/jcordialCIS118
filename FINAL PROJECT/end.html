@@ -5,13 +5,22 @@
       div.main{margin:0 auto;}
       div.contact{border:1px solid black;}
       div.explore{border:1px solid black;}
-      h1{text-align:center;font-size: 30px;border:1px solid black}
+      div.gallery{border:1px solid black;}
+      h1{text-align:center;font-size: 12em;border:1px solid black}
+      	div.main{display: flex;align-items:center;justify-content:space-evenly;}
+			* {box-sizing: border-box;}
+			div.main{width:99%;}
+			div.main div.explore{text-align:justify;padding:10px 0px 10px 7px;font-size:18px;width:33.33%;}
+			div.main div.contact{padding: 10px 10px 10px 10px;float:right;}
+			.clearfix {overflow: auto;}
     </style>
   </head>
   <body>
     <h1>There are no more trips to see!</h1>
     <div class="main"><div class="contact"><p><a href="contact.html">Contact me</a></p>
       <p>Tell me where I should go next!</p></div>
-    <div class="explore"><p><a href="index.html">Explore more trips!</a></p></div></div>
+    <div class="explore"><p><a href="index.html">Explore more trips!</a></p></div>
+      <div class="gallery"><p>View More Photos</p></div>
+    </div>
   </body>
 </html>
