@@ -1,0 +1,18 @@
+	body{background-color: #F0F0D8;}
+      div.main{margin:2em auto;}
+      div.contact{margin:0;}
+      div.explore{margin:0;}
+      div.gallery{margin:0;}
+      h1{text-align:center;font-size: 4.5em;margin:0;}
+      	div.main{display: flex;align-items:center;justify-content:space-evenly;}
+			* {box-sizing: border-box;}
+			div.main{width:99%;}
+			div.main div.contact{text-align:center;padding:10px;width:33%;font-size:2.5em;}
+			div.main div.explore{text-align:center;padding: 10px;float:right;width:33%;font-size:2.5em;}
+	   		div.main div.gallery{text-align:center;padding: 10px;float:right;width:33%;font-size:2.5em;}
+			.clearfix {overflow: auto;}
+	   		img{border:.25em solid white;padding:0; margin:.2em 2px;}
+	    div.main p{margin:0em;}
+	    a,a:link{text-decoration:none;color:black;}
+	    a:visited{color:#be3400;}
+	    	    a:hover{font-size:1.2em;color:#747c24;}
